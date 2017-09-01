@@ -8,6 +8,8 @@
 
 #import "ViewController.h"
 #import "ManualCodeAutoLayoutViewController.h"
+#import "VisualFromatLanguageViewController.h"
+#import "XibAutoLayoutViewController.h"
 
 @interface ViewController ()
 
@@ -62,7 +64,12 @@
         case 0:
             [self.navigationController pushViewController:[[ManualCodeAutoLayoutViewController alloc] init] animated:YES];
             break;
-            
+        case 1:
+            [self.navigationController pushViewController:[[VisualFromatLanguageViewController alloc] init] animated:YES];
+            break;
+        case 2:
+            [self.navigationController pushViewController:[[XibAutoLayoutViewController alloc] init] animated:YES];
+            break;
         default:
             break;
     }

@@ -20,6 +20,8 @@
  1.Manual layout
  2.Autoresizing
  3.Autolayout
+    1.手码自动布局开发中基本不用
+    2.VFL（Visual Format Language）可视化语言用来简化autolayout的布局约束
  */
 
 @interface ManualCodeAutoLayoutViewController ()
@@ -30,6 +32,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.view.backgroundColor=[UIColor whiteColor];
 //    布局不扩展到导航下面
 //    self.edgesForExtendedLayout = UIRectEdgeNone;
     // Do any additional setup after loading the view.

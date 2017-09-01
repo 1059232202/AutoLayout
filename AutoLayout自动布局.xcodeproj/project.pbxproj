@@ -16,6 +16,9 @@
 		F27B04611F57BDFB005A5490 /* AutoLayout____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = F27B04601F57BDFB005A5490 /* AutoLayout____Tests.m */; };
 		F27B046C1F57BDFB005A5490 /* AutoLayout____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F27B046B1F57BDFB005A5490 /* AutoLayout____UITests.m */; };
 		F27B04BA1F5802AE005A5490 /* ManualCodeAutoLayoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F27B04B91F5802AE005A5490 /* ManualCodeAutoLayoutViewController.m */; };
+		F27B04BD1F58F8AD005A5490 /* VisualFromatLanguageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F27B04BC1F58F8AD005A5490 /* VisualFromatLanguageViewController.m */; };
+		F27B04C01F5938B6005A5490 /* XibAutoLayoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F27B04BF1F5938B6005A5490 /* XibAutoLayoutViewController.m */; };
+		F27B04C21F5939FB005A5490 /* XibAutoLayoutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F27B04C11F5939FB005A5490 /* XibAutoLayoutViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +57,11 @@
 		F27B046D1F57BDFB005A5490 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F27B04B81F5802AE005A5490 /* ManualCodeAutoLayoutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ManualCodeAutoLayoutViewController.h; sourceTree = "<group>"; };
 		F27B04B91F5802AE005A5490 /* ManualCodeAutoLayoutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ManualCodeAutoLayoutViewController.m; sourceTree = "<group>"; };
+		F27B04BB1F58F8AD005A5490 /* VisualFromatLanguageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VisualFromatLanguageViewController.h; sourceTree = "<group>"; };
+		F27B04BC1F58F8AD005A5490 /* VisualFromatLanguageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VisualFromatLanguageViewController.m; sourceTree = "<group>"; };
+		F27B04BE1F5938B6005A5490 /* XibAutoLayoutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XibAutoLayoutViewController.h; sourceTree = "<group>"; };
+		F27B04BF1F5938B6005A5490 /* XibAutoLayoutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XibAutoLayoutViewController.m; sourceTree = "<group>"; };
+		F27B04C11F5939FB005A5490 /* XibAutoLayoutViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XibAutoLayoutViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +118,11 @@
 				F27B044D1F57BDFB005A5490 /* ViewController.m */,
 				F27B04B81F5802AE005A5490 /* ManualCodeAutoLayoutViewController.h */,
 				F27B04B91F5802AE005A5490 /* ManualCodeAutoLayoutViewController.m */,
+				F27B04BB1F58F8AD005A5490 /* VisualFromatLanguageViewController.h */,
+				F27B04BC1F58F8AD005A5490 /* VisualFromatLanguageViewController.m */,
+				F27B04BE1F5938B6005A5490 /* XibAutoLayoutViewController.h */,
+				F27B04BF1F5938B6005A5490 /* XibAutoLayoutViewController.m */,
+				F27B04C11F5939FB005A5490 /* XibAutoLayoutViewController.xib */,
 				F27B044F1F57BDFB005A5490 /* Main.storyboard */,
 				F27B04521F57BDFB005A5490 /* Assets.xcassets */,
 				F27B04541F57BDFB005A5490 /* LaunchScreen.storyboard */,
@@ -255,6 +268,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F27B04561F57BDFB005A5490 /* LaunchScreen.storyboard in Resources */,
+				F27B04C21F5939FB005A5490 /* XibAutoLayoutViewController.xib in Resources */,
 				F27B04531F57BDFB005A5490 /* Assets.xcassets in Resources */,
 				F27B04511F57BDFB005A5490 /* Main.storyboard in Resources */,
 			);
@@ -283,6 +297,8 @@
 			files = (
 				F27B044E1F57BDFB005A5490 /* ViewController.m in Sources */,
 				F27B044B1F57BDFB005A5490 /* AppDelegate.m in Sources */,
+				F27B04BD1F58F8AD005A5490 /* VisualFromatLanguageViewController.m in Sources */,
+				F27B04C01F5938B6005A5490 /* XibAutoLayoutViewController.m in Sources */,
 				F27B04BA1F5802AE005A5490 /* ManualCodeAutoLayoutViewController.m in Sources */,
 				F27B04481F57BDFB005A5490 /* main.m in Sources */,
 			);

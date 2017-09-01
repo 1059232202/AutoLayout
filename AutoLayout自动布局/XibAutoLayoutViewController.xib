@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12121"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="XibAutoLayoutViewController">
+            <connections>
+                <outlet property="view" destination="iN0-l3-epB" id="9Eh-wS-KsP"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="36h-Ph-W4r">
+                    <rect key="frame" x="30" y="30" width="142.5" height="288"/>
+                    <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="opJ-Ug-Fsd">
+                    <rect key="frame" x="202.5" y="30" width="142.5" height="288.5"/>
+                    <color key="backgroundColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HQU-MR-329">
+                    <rect key="frame" x="30" y="348.5" width="315" height="288.5"/>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="36h-Ph-W4r" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="30" id="0dz-2k-mwS"/>
+                <constraint firstItem="36h-Ph-W4r" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="30" id="5Fr-ta-vaj"/>
+                <constraint firstItem="opJ-Ug-Fsd" firstAttribute="height" secondItem="36h-Ph-W4r" secondAttribute="height" id="EYG-p9-mZT"/>
+                <constraint firstItem="HQU-MR-329" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="30" id="OB3-pp-9ER"/>
+                <constraint firstAttribute="bottom" secondItem="HQU-MR-329" secondAttribute="bottom" constant="30" id="aGq-NA-7DA"/>
+                <constraint firstItem="opJ-Ug-Fsd" firstAttribute="centerY" secondItem="36h-Ph-W4r" secondAttribute="centerY" id="c0W-qr-cl4"/>
+                <constraint firstItem="opJ-Ug-Fsd" firstAttribute="leading" secondItem="36h-Ph-W4r" secondAttribute="trailing" constant="30" id="cqr-VO-G8e"/>
+                <constraint firstItem="HQU-MR-329" firstAttribute="height" secondItem="36h-Ph-W4r" secondAttribute="height" id="gbw-gk-AdH"/>
+                <constraint firstItem="HQU-MR-329" firstAttribute="top" secondItem="opJ-Ug-Fsd" secondAttribute="bottom" constant="30" id="gkI-sG-jww"/>
+                <constraint firstAttribute="trailing" secondItem="HQU-MR-329" secondAttribute="trailing" constant="30" id="msS-Fy-2n5"/>
+                <constraint firstItem="opJ-Ug-Fsd" firstAttribute="width" secondItem="36h-Ph-W4r" secondAttribute="width" id="pSJ-lB-Wuf"/>
+                <constraint firstAttribute="trailing" secondItem="opJ-Ug-Fsd" secondAttribute="trailing" constant="30" id="xV4-yn-mwy"/>
+            </constraints>
+            <point key="canvasLocation" x="33.5" y="92.5"/>
+        </view>
+    </objects>
+</document>
