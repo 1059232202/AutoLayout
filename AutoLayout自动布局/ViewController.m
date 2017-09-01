@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "ManualCodeAutoLayoutViewController.h"
 
 @interface ViewController ()
 
@@ -27,6 +28,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+//    设置导航栏标题
+    self.navigationItem.title=@"首页";
+    self.navigationController.navigationBar.translucent = NO;
+    
     NSLog(@"viewDidLoad");
     // Do any additional setup after loading the view, typically from a nib.
 }
@@ -53,7 +58,14 @@
 
 #pragma mark 点击事件
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
-    NSLog(@"didSelectRowAtIndexPath");
+    switch (indexPath.row) {
+        case 0:
+            [self.navigationController pushViewController:[[ManualCodeAutoLayoutViewController alloc] init] animated:YES];
+            break;
+            
+        default:
+            break;
+    }
 }
 
 - (void)didReceiveMemoryWarning {
