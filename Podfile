@@ -19,3 +19,8 @@ target 'AutoLayout自动布局' do
   end
 
 end
+
+# 1.lilin:AutoLayout自动布局 lilin$ pod init
+# 2.加入要管理的库如 pod 'Masonry'
+# 3.lilin:AutoLayout自动布局 lilin$ pod install --verbose --no-repo-update
+# 4.库下载完毕。去项目所在目录点击.xcworkspace打开项目。
