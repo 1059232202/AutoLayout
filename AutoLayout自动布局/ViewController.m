@@ -10,6 +10,7 @@
 #import "ManualCodeAutoLayoutViewController.h"
 #import "VisualFromatLanguageViewController.h"
 #import "XibAutoLayoutViewController.h"
+#import "MasonryAutoLayoutViewController.h"
 
 @interface ViewController ()
 
@@ -69,6 +70,9 @@
             break;
         case 2:
             [self.navigationController pushViewController:[[XibAutoLayoutViewController alloc] init] animated:YES];
+            break;
+        case 3:
+            [self.navigationController pushViewController:[[MasonryAutoLayoutViewController alloc] init] animated:YES];
             break;
         default:
             break;

@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00447D136D48E17E74FD1287 /* libPods-AutoLayout自动布局Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 73F8D9C65383394DE256B96C /* libPods-AutoLayout自动布局Tests.a */; };
+		382E0EE2B5BA6557555DAE60 /* libPods-AutoLayout自动布局UITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B98B21BFA5B20EF1282F02FD /* libPods-AutoLayout自动布局UITests.a */; };
+		49A3A88E1913BAA32AFCC9F1 /* libPods-AutoLayout自动布局.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B5C2D49750D85A6B7EB9EE59 /* libPods-AutoLayout自动布局.a */; };
 		F27B04481F57BDFB005A5490 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F27B04471F57BDFB005A5490 /* main.m */; };
 		F27B044B1F57BDFB005A5490 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F27B044A1F57BDFB005A5490 /* AppDelegate.m */; };
 		F27B044E1F57BDFB005A5490 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F27B044D1F57BDFB005A5490 /* ViewController.m */; };
@@ -19,6 +22,7 @@
 		F27B04BD1F58F8AD005A5490 /* VisualFromatLanguageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F27B04BC1F58F8AD005A5490 /* VisualFromatLanguageViewController.m */; };
 		F27B04C01F5938B6005A5490 /* XibAutoLayoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F27B04BF1F5938B6005A5490 /* XibAutoLayoutViewController.m */; };
 		F27B04C21F5939FB005A5490 /* XibAutoLayoutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F27B04C11F5939FB005A5490 /* XibAutoLayoutViewController.xib */; };
+		F27B04CA1F59475D005A5490 /* MasonryAutoLayoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F27B04C91F59475D005A5490 /* MasonryAutoLayoutViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +43,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0C1D71D0B914CD8134F76C24 /* Pods-AutoLayout自动布局UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AutoLayout自动布局UITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AutoLayout自动布局UITests/Pods-AutoLayout自动布局UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		0FEA0AD694A999A77D8B3CB6 /* Pods-AutoLayout自动布局.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AutoLayout自动布局.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AutoLayout自动布局/Pods-AutoLayout自动布局.debug.xcconfig"; sourceTree = "<group>"; };
+		2374129FDE71EA4E4B0559C4 /* Pods-AutoLayout自动布局Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AutoLayout自动布局Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AutoLayout自动布局Tests/Pods-AutoLayout自动布局Tests.release.xcconfig"; sourceTree = "<group>"; };
+		5A05799B30AAD284188710EB /* Pods-AutoLayout自动布局Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AutoLayout自动布局Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AutoLayout自动布局Tests/Pods-AutoLayout自动布局Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		73F8D9C65383394DE256B96C /* libPods-AutoLayout自动布局Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AutoLayout自动布局Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D57A0A390347588AEA872B3 /* Pods-AutoLayout自动布局.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AutoLayout自动布局.release.xcconfig"; path = "Pods/Target Support Files/Pods-AutoLayout自动布局/Pods-AutoLayout自动布局.release.xcconfig"; sourceTree = "<group>"; };
+		8245BECD4133F970F5CA4210 /* Pods-AutoLayout自动布局UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AutoLayout自动布局UITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AutoLayout自动布局UITests/Pods-AutoLayout自动布局UITests.release.xcconfig"; sourceTree = "<group>"; };
+		B5C2D49750D85A6B7EB9EE59 /* libPods-AutoLayout自动布局.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AutoLayout自动布局.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B98B21BFA5B20EF1282F02FD /* libPods-AutoLayout自动布局UITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AutoLayout自动布局UITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F27B04431F57BDFB005A5490 /* AutoLayout自动布局.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AutoLayout自动布局.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F27B04471F57BDFB005A5490 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F27B04491F57BDFB005A5490 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -50,10 +63,10 @@
 		F27B04551F57BDFB005A5490 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F27B04571F57BDFB005A5490 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F27B045C1F57BDFB005A5490 /* AutoLayout自动布局Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AutoLayout自动布局Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F27B04601F57BDFB005A5490 /* AutoLayout____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AutoLayout____Tests.m"; sourceTree = "<group>"; };
+		F27B04601F57BDFB005A5490 /* AutoLayout____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutoLayout____Tests.m; sourceTree = "<group>"; };
 		F27B04621F57BDFB005A5490 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F27B04671F57BDFB005A5490 /* AutoLayout自动布局UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AutoLayout自动布局UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F27B046B1F57BDFB005A5490 /* AutoLayout____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AutoLayout____UITests.m"; sourceTree = "<group>"; };
+		F27B046B1F57BDFB005A5490 /* AutoLayout____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutoLayout____UITests.m; sourceTree = "<group>"; };
 		F27B046D1F57BDFB005A5490 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F27B04B81F5802AE005A5490 /* ManualCodeAutoLayoutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ManualCodeAutoLayoutViewController.h; sourceTree = "<group>"; };
 		F27B04B91F5802AE005A5490 /* ManualCodeAutoLayoutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ManualCodeAutoLayoutViewController.m; sourceTree = "<group>"; };
@@ -62,6 +75,8 @@
 		F27B04BE1F5938B6005A5490 /* XibAutoLayoutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XibAutoLayoutViewController.h; sourceTree = "<group>"; };
 		F27B04BF1F5938B6005A5490 /* XibAutoLayoutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XibAutoLayoutViewController.m; sourceTree = "<group>"; };
 		F27B04C11F5939FB005A5490 /* XibAutoLayoutViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XibAutoLayoutViewController.xib; sourceTree = "<group>"; };
+		F27B04C81F59475D005A5490 /* MasonryAutoLayoutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasonryAutoLayoutViewController.h; sourceTree = "<group>"; };
+		F27B04C91F59475D005A5490 /* MasonryAutoLayoutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasonryAutoLayoutViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49A3A88E1913BAA32AFCC9F1 /* libPods-AutoLayout自动布局.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00447D136D48E17E74FD1287 /* libPods-AutoLayout自动布局Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,12 +100,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				382E0EE2B5BA6557555DAE60 /* libPods-AutoLayout自动布局UITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		28D0F1BA61281590C744A192 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0FEA0AD694A999A77D8B3CB6 /* Pods-AutoLayout自动布局.debug.xcconfig */,
+				7D57A0A390347588AEA872B3 /* Pods-AutoLayout自动布局.release.xcconfig */,
+				5A05799B30AAD284188710EB /* Pods-AutoLayout自动布局Tests.debug.xcconfig */,
+				2374129FDE71EA4E4B0559C4 /* Pods-AutoLayout自动布局Tests.release.xcconfig */,
+				0C1D71D0B914CD8134F76C24 /* Pods-AutoLayout自动布局UITests.debug.xcconfig */,
+				8245BECD4133F970F5CA4210 /* Pods-AutoLayout自动布局UITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C31C78655408B62970C9C21B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B5C2D49750D85A6B7EB9EE59 /* libPods-AutoLayout自动布局.a */,
+				73F8D9C65383394DE256B96C /* libPods-AutoLayout自动布局Tests.a */,
+				B98B21BFA5B20EF1282F02FD /* libPods-AutoLayout自动布局UITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F27B043A1F57BDFB005A5490 = {
 			isa = PBXGroup;
 			children = (
@@ -96,6 +137,8 @@
 				F27B045F1F57BDFB005A5490 /* AutoLayout自动布局Tests */,
 				F27B046A1F57BDFB005A5490 /* AutoLayout自动布局UITests */,
 				F27B04441F57BDFB005A5490 /* Products */,
+				28D0F1BA61281590C744A192 /* Pods */,
+				C31C78655408B62970C9C21B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -123,6 +166,8 @@
 				F27B04BE1F5938B6005A5490 /* XibAutoLayoutViewController.h */,
 				F27B04BF1F5938B6005A5490 /* XibAutoLayoutViewController.m */,
 				F27B04C11F5939FB005A5490 /* XibAutoLayoutViewController.xib */,
+				F27B04C81F59475D005A5490 /* MasonryAutoLayoutViewController.h */,
+				F27B04C91F59475D005A5490 /* MasonryAutoLayoutViewController.m */,
 				F27B044F1F57BDFB005A5490 /* Main.storyboard */,
 				F27B04521F57BDFB005A5490 /* Assets.xcassets */,
 				F27B04541F57BDFB005A5490 /* LaunchScreen.storyboard */,
@@ -165,9 +210,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F27B04701F57BDFB005A5490 /* Build configuration list for PBXNativeTarget "AutoLayout自动布局" */;
 			buildPhases = (
+				3D03B815EB2D62733D5D8728 /* [CP] Check Pods Manifest.lock */,
 				F27B043F1F57BDFB005A5490 /* Sources */,
 				F27B04401F57BDFB005A5490 /* Frameworks */,
 				F27B04411F57BDFB005A5490 /* Resources */,
+				6271979C7949D43EB05DACB0 /* [CP] Embed Pods Frameworks */,
+				D1C336F3728E549D5B5DF41B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -182,9 +230,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F27B04731F57BDFB005A5490 /* Build configuration list for PBXNativeTarget "AutoLayout自动布局Tests" */;
 			buildPhases = (
+				90217AA4D291426AD37504AD /* [CP] Check Pods Manifest.lock */,
 				F27B04581F57BDFB005A5490 /* Sources */,
 				F27B04591F57BDFB005A5490 /* Frameworks */,
 				F27B045A1F57BDFB005A5490 /* Resources */,
+				9885F88514929B147F1F8233 /* [CP] Embed Pods Frameworks */,
+				A83FA542EC3EC79C2BB514A7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -200,9 +251,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F27B04761F57BDFB005A5490 /* Build configuration list for PBXNativeTarget "AutoLayout自动布局UITests" */;
 			buildPhases = (
+				CB988C728ED65E7722EA9F16 /* [CP] Check Pods Manifest.lock */,
 				F27B04631F57BDFB005A5490 /* Sources */,
 				F27B04641F57BDFB005A5490 /* Frameworks */,
 				F27B04651F57BDFB005A5490 /* Resources */,
+				2851D833915F6345ADFE9DE6 /* [CP] Embed Pods Frameworks */,
+				3E6CEB43AFB14CFE7409013B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -290,11 +344,150 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2851D833915F6345ADFE9DE6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AutoLayout自动布局UITests/Pods-AutoLayout自动布局UITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3D03B815EB2D62733D5D8728 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3E6CEB43AFB14CFE7409013B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AutoLayout自动布局UITests/Pods-AutoLayout自动布局UITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6271979C7949D43EB05DACB0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AutoLayout自动布局/Pods-AutoLayout自动布局-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		90217AA4D291426AD37504AD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9885F88514929B147F1F8233 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AutoLayout自动布局Tests/Pods-AutoLayout自动布局Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A83FA542EC3EC79C2BB514A7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AutoLayout自动布局Tests/Pods-AutoLayout自动布局Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CB988C728ED65E7722EA9F16 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D1C336F3728E549D5B5DF41B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AutoLayout自动布局/Pods-AutoLayout自动布局-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F27B043F1F57BDFB005A5490 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F27B04CA1F59475D005A5490 /* MasonryAutoLayoutViewController.m in Sources */,
 				F27B044E1F57BDFB005A5490 /* ViewController.m in Sources */,
 				F27B044B1F57BDFB005A5490 /* AppDelegate.m in Sources */,
 				F27B04BD1F58F8AD005A5490 /* VisualFromatLanguageViewController.m in Sources */,
@@ -447,6 +640,7 @@
 		};
 		F27B04711F57BDFB005A5490 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FEA0AD694A999A77D8B3CB6 /* Pods-AutoLayout自动布局.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = S3NUGZD6JQ;
@@ -459,6 +653,7 @@
 		};
 		F27B04721F57BDFB005A5490 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D57A0A390347588AEA872B3 /* Pods-AutoLayout自动布局.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = S3NUGZD6JQ;
@@ -471,6 +666,7 @@
 		};
 		F27B04741F57BDFB005A5490 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A05799B30AAD284188710EB /* Pods-AutoLayout自动布局Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = S3NUGZD6JQ;
@@ -484,6 +680,7 @@
 		};
 		F27B04751F57BDFB005A5490 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2374129FDE71EA4E4B0559C4 /* Pods-AutoLayout自动布局Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = S3NUGZD6JQ;
@@ -497,6 +694,7 @@
 		};
 		F27B04771F57BDFB005A5490 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C1D71D0B914CD8134F76C24 /* Pods-AutoLayout自动布局UITests.debug.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = S3NUGZD6JQ;
 				INFOPLIST_FILE = "AutoLayout自动布局UITests/Info.plist";
@@ -509,6 +707,7 @@
 		};
 		F27B04781F57BDFB005A5490 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8245BECD4133F970F5CA4210 /* Pods-AutoLayout自动布局UITests.release.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = S3NUGZD6JQ;
 				INFOPLIST_FILE = "AutoLayout自动布局UITests/Info.plist";
